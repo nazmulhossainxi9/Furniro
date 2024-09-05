@@ -1,0 +1,605 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header */
+    .toggler{
+        font-size: 16px;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    .ul{
+        margin-left: 0;
+        width: 100%;
+    }
+    .ul .li .a{
+        font-size: 15px;
+    }
+    .icons a{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .search{
+        width: 230px;
+        height: 35px;
+    }
+    .search input{
+        width: 200px;
+        height: 30px;
+    }
+    .n_submit{
+        padding: 5px 0;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 198px;
+        left: 95px;
+    }
+
+    /* slider starts */
+    .b_slider{
+        width: 300px;
+        margin: 50px 0 0 0;
+    }
+    .b_text {
+        text-align: center;
+        padding: 62px 13px 39px 13px !important;
+    }
+    .b_text .b_h1{
+        font-size: 30px;
+        width: 270px;
+        line-height: 40px;
+    }
+    .b_text .b_p{
+        width: 270px;
+    }
+    .b_text .btn_slider{
+        padding: 10px 40px;
+    }
+
+    /* browse starts */
+    .gap{
+        margin: 35px 0 40px 0;
+    }
+    .r_h1{
+        font-size: 22px;
+    }
+    
+    .r_text p{
+        font-size: 16px;
+    }
+    .cards{
+        padding: 0 90px;
+    }
+    .card{
+        margin: 0 0 0 0;
+    }
+    .card-name{
+        font-size: 18px;
+    }
+
+    /* product starts */
+    .p_body{
+        padding: 15px 1px 10px 10px;
+    }
+    .p_h1{
+        font-size: 24px;
+    }
+    .p_card{
+        margin: 25px 0 0 0;
+    }
+    .p_title{
+        font-size: 18px;
+    }
+    .p_text{
+        font-size: 15px;
+    }
+    .p_price{
+        font-size: 16px;
+    }
+    .pdelete_price{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    /* setup starts */
+    .s_text{
+        margin: 25px 0 0 0;
+        font-size: 16px;
+    }
+    .s_title{
+        font-size: 22px;
+    }
+    .images{
+        padding: 6px;
+    }
+    .image12{
+        padding: 6px;
+        margin: 0 0 0 0;
+    }
+    .m_image{
+        margin-top: 80px;
+    }
+    
+    /* footer starts */
+    .footer{
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    .footer ul li {
+        margin-bottom: 20px;
+    }
+    .newsletter{
+        align-items: center;
+    }
+    .newsletter-form{
+        display: inline;
+        text-align: center;
+    }
+
+    .newsletter-form input.form-control {
+        margin: 12px auto;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #000;
+        border-radius: 0; 
+        text-align: center;
+    }
+
+    .newsletter-form button.btn {
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        color: var(--white);
+    }
+        
+    .gaps{
+        margin: 0 0 20px 0;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width: 767.98px) {
+    /* header */
+    .toggler{
+        font-size: 16px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    ul{
+        margin-left: 0;
+    }
+    ul li a{
+        font-size: 15px;
+    }
+    .icons a{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .search{
+        width: 350px;
+        height: 35px;
+    }
+    .search input{
+        width: 290px;
+        height: 30px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 198px;
+        left: 95px;
+    }
+
+    /* slider starts */
+    .b_slider{
+        width: 420px;
+        margin: 90px 0 0 90px;
+    }
+    .b_text .b_h1{
+        font-size: 30px;
+        width: 270px;
+        line-height: 40px;
+    }
+    .b_text .b_p{
+        width: 335px;
+    }
+    .b_text .btn_slider{
+        padding: 10px 40px;
+    }
+
+    /* browse starts */
+    .gap{
+        margin: 35px 0 40px 0;
+    }
+    .r_h1{
+        font-size: 24px;
+    }
+    .r_text p{
+        font-size: 18px;
+    }
+    .cards{
+        padding: 0 90px;
+    }
+    .card{
+        margin: 0 0 0 0;
+    }
+    .card-name{
+        font-size: 18px;
+    }
+
+    /* product starts */
+    .p_body{
+        padding: 15px 1px 10px 10px;
+    }
+    .p_h1{
+        font-size: 26px;
+    }
+    .p_card{
+        margin: 26px 0 0 0;
+    }
+    .p_title{
+        font-size: 18px;
+    }
+    .p_text{
+        font-size: 15px;
+    }
+    .p_price{
+        font-size: 16px;
+    }
+    .pdelete_price{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .product_show{
+        margin: 26px 0 0 0;
+    }
+
+    /* setup starts */
+    .s_text{
+        margin: 40px 0 0 0;
+        font-size: 16px;
+    }
+    .s_title{
+        font-size: 26px;
+    }
+    .images{
+        padding: 6px;
+    }
+    .image12{
+        padding: 6px;
+        margin: 0 0 0 0;
+    }
+    .m_image{
+        margin-top: 80px;
+    }
+
+    /* footer starts */
+    .footer{
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    .footer ul li {
+        margin-bottom: 20px;
+    }
+    .newsletter-form{
+        display: inline;
+        text-align: center;
+    }
+    .newsletter-form input.form-control {
+        margin: 12px auto;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #000;
+        border-radius: 0; 
+        text-align: center;
+    }
+
+    .newsletter-form button.btn {
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        color: var(--white);
+    }
+        
+    .gaps{
+        margin: 0 0 20px 0;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991.98px) { 
+
+    /* header */
+    .toggler{
+        font-size: 18px;
+    }
+    .logo img{
+        width: 170px;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    ul{
+        margin-left: 0;
+    }
+    .icons a{
+        margin-right: 25px;
+    }
+    .search{
+        width: 450px;
+    }
+    .search input{
+        width: 390px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 210px;
+        left: 105px;
+    }
+
+    /* slider starts */
+    .b_slider{
+        width: 490px;
+        margin: 50px 0 0 190px;
+    }
+    .b_text .b_h1{
+        font-size: 35px;
+        
+    width: 400px;
+        line-height: 45px;
+    }
+    .b_text .b_p{
+        width: 450px;
+    }
+    .b_text .btn_slider{
+        padding: 15px 60px;
+    }
+
+    /* browse starts */
+    .gap{
+        margin: 35px 0 40px 0;
+    }
+    .r_h1{
+        font-size: 28px;
+    }
+    .cards{
+        padding: 0 30px;
+    }
+    .card{
+        margin: 0 10px 0 0;
+    }
+    .card-name{
+        font-size: 18px;
+    }
+
+    /* product starts */
+    .p_h1{
+        font-size: 30px;
+    }
+    .p_card{
+        margin: 30px 0 0 0;
+    }
+    .p_title{
+        font-size: 20px;
+    }
+    .p_text{
+        font-size: 16px;
+    }
+    .p_price{
+        font-size: 18px;
+    }
+
+    /* setup starts */
+    .s_text{
+        margin: 40px 0 0 0;
+        font-size: 18px;
+    }
+    .s_title{
+        font-size: 30px;
+    }
+    .images{
+        padding: 6px;
+    }
+    .image12{
+        padding: 6px;
+        margin: 0 0 0 0;
+    }
+    .m_image{
+        margin-top: 120px;
+    }
+
+    /* footer starts */
+    .footer{
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    .footer ul li {
+        margin-bottom: 20px;
+    }
+    .newsletter-form{
+        overflow: hidden;
+        display: block;
+        justify-content: center;
+    }
+    .newsletter-form input.form-control {
+        margin: 12px auto;
+        width: 300px;
+        height: 50px;
+        border: 1px solid #000;
+        border-radius: 0; 
+        padding: 0 0 0 10px;
+    }
+    .newsletter-form button.btn {
+        width: 300px;
+        height: 50px;
+        background-color: black;
+        color: var(--white);
+    }  
+    .gaps{
+        margin: 0 0 20px 0;
+    }
+
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width: 1199.98px) { 
+    
+    /* header starts  */
+    ul li a{
+        margin-right: 40px;
+    }
+    .icons a{
+        margin-right: 25px;
+    }
+    .search{
+        width: 450px;
+    }
+    .search input{
+        width: 390px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: 20px;
+        left: 245px;
+    }
+    
+    /* slider starts */
+    .b_slider{
+        width: 570px;
+        margin: 250px 0 0 380px;
+    }
+    .b_text .b_h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .b_text .b_p{
+        width: 510px;
+    }
+    .b_text .btn_slider{
+        padding: 20px 67px;
+    }
+
+    /* browse starts */
+    .gap{
+        margin: 48px 0 57px 0;
+    }
+    .r_h1{
+        font-size: 28px;
+    }
+    .cards{
+        padding: 0 100px;
+    }
+    .card{
+        margin: 0 10px 0 0;
+    }
+    .card-name{
+        font-size: 20px;
+    }
+
+    /* product starts */
+    .p_body{
+        padding: 15px 1px 10px 5px;
+    }
+    .p_h1 {
+        font-size: 32px;
+    }
+    .p_title{
+        font-size: 18px;
+    }
+    .p_text{
+        font-size: 15px;
+    }
+    .p_price{
+        font-size: 16px;
+    }
+    .pdelete_price{
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    /* setup starts */
+    .s_title{
+        font-size: 32px;
+    }
+    .images{
+        padding: 6px;
+    }
+    .image12{
+        padding: 6px;
+        margin: 0 0 0 0;
+    }
+    .m_image{
+        margin-top: 180px;
+    }
+
+    
+    /* footer starts */
+    .footer{
+        margin: 0 0 0 0;
+    }
+    .newsletter-form input.form-control {
+        width: 240px;
+    }
+
+
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    /* header starts  */
+    .search{
+        width: 600px;
+    }
+    /* slider starts */
+    .b_slider{
+        width: 650px;
+        margin: 250px 0 0 490px;
+    }
+
+    /* browse starts */
+    .card{
+        margin: 0 20px 0 0;
+    }
+
+    /* product starts */
+    .p_body{
+        padding: 15px 1px 10px 10px;
+    }
+    .p_title{
+        font-size: 20px;
+    }
+    .p_price{
+        font-size: 18px;
+    }
+    .pdelete_price{
+        margin-left: 8px;
+    }
+
+    /* setup starts */
+    .m_image{
+        margin-top: 200px;
+    }
+
+    /* footer starts */
+    .footer{
+        margin: 0 0 0 0;
+    }
+    .newsletter-form input.form-control {
+        width: 240px;
+    }
+}
+
+/* XX-Large devices (large desktops 1400px) */
+@media (min-width: 1400px) and (max-width: 1649.98) {
+
+    /* browse starts */
+    .card{
+        margin: 0 20px 0 0;
+    }
+    
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */

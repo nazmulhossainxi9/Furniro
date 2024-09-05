@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro | Shop</title>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="../images/logo_icon.png">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- basic links -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/s_media.css">
+
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- header starts -->
+    <header class="head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="image-fluid" src="../images/logo.png" alt="Furniro">
+                        </a>
+                    </div>
+                        <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navID" aria-controls="navID" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse menu" id="navID">
+                        <ul class="navbar-nav ul">
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="../index.html">Home</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="html/shop.html">Shop</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="#">About</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="#">Contact</a></li>
+                        </ul>
+                        <div class="icons d-flex">
+                            <a href="#"><iconify-icon class="iconify" icon="mdi:account-alert-outline"></iconify-icon></a>
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:search" data-bs-toggle="dropdown" aria-expanded="false"></iconify-icon>
+                                <ul class="search dropdown-menu">
+                                    <div class="col-lg-10 col-xl-11 col-10 column">
+                                        <input type="text" class="n_sarea form-control" placeholder="Search" aria-label="Search"> 
+                                    </div>
+                                    <button type="submit" class="btn n_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </ul>
+                            </a>
+                            
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:heart"></iconify-icon></a>
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:cart"></iconify-icon></a>
+                            
+                        </div>
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends -->
+    
+    <!-- banner starts -->
+    <section class="s_banner">
+        <div class="container">
+            <div class="b_text text-center">
+                <h1 class="s_h1">Shop</h1>
+                <h4>Home > <span>Shop</span></h4>
+            </div>
+        </div>
+    </section>
+    <!-- banner ends -->
+
+
+    <!-- filter starts -->
+    <section class="filter">
+        <div class="container f_container">
+            <div class="d-flex align-items-center justify-content-between filter-sort-bar">
+                <div class="d-flex align-items-center">
+                    <button class="btn filter-btn">
+                        <iconify-icon class="iconify f_icon" icon="system-uicons:filtering"></iconify-icon>
+                        <div class="f_filter">Filter</div>
+                    </button>
+                    <div class="view-icons d-flex align-items-center ml-3">
+                        <button class="btn filter-btn active">
+                            <iconify-icon class="iconify f_icon" icon="ci:grid-big-round"></iconify-icon>
+                        </button>
+                        <button class="btn filter-btn">
+                            <iconify-icon class="iconify f_icon align-items-center" icon="bi:view-list"></iconify-icon>
+                        </button>
+                    </div>
+                    <div class="separator ml-3"></div>
+                    <span class="ml-3 result_text">Showing 1–16 of 32 results</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="mr-2 result_show">Show</span>
+                    <input type="text" class="form-control results-input" value="16" readonly>
+                    <span class="mx-2 result_sort">Short by</span>
+                    <select class="form-control sort-by-select">
+                        <option selected>Default</option>
+                        <option value="popularity">Popularity</option>
+                        <option value="rating">Rating</option>
+                        <option value="newest">Newest</option>
+                        <option value="price-low-high">Price: Low to High</option>
+                        <option value="price-high-low">Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- filter ends -->
+
+    <!-- product starts -->
+    <section class="product">
+        <div class="container">
+            <!-- card items 1 -->
+            <div class="row">
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/syltherine.png" class="card-img-top" alt="Furniro">
+                        
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Syltherine</h1>
+                            <p class="p_text">Stylish cafe chair</p>
+                            <h2 class="p_price">Rp 2.500.000 <span class="pdelete_price"><del>Rp 3.500.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/leviosa.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Leviosa</h1>
+                            <p class="p_text">Stylish cafe chair</p>
+                            <h2 class="p_price">Rp 2.500.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/lolito.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Lolito</h1>
+                            <p class="p_text">Luxury big sofa</p>
+                            <h2 class="p_price">Rp 7.000.000 <span class="pdelete_price"><del>Rp 14.000.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/respira.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Respira</h1>
+                            <p class="p_text">Outdoor bar table and stool</p>
+                            <h2 class="p_price">Rp 500.000</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card items 2 -->
+            <div class="row">
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/grifo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Grifo</h1>
+                            <p class="p_text">Night lamp</p>
+                            <h2 class="p_price"> Rp 1.500.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/muggo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Muggo</h1>
+                            <p class="p_text">Small mug</p>
+                            <h2 class="p_price">Rp 150.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/pingky.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Pingky</h1>
+                            <p class="p_text">Cute bed set</p>
+                            <h2 class="p_price">Rp 7.000.000 <span class="pdelete_price"><del>Rp 14.000.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/potty.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Potty</h1>
+                            <p class="p_text">Minimalist flower pot</p>
+                            <h2 class="p_price">Rp 500.000</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card items 3 -->
+            <div class="row">
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/grifo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Grifo</h1>
+                            <p class="p_text">Night lamp</p>
+                            <h2 class="p_price"> Rp 1.500.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/muggo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Muggo</h1>
+                            <p class="p_text">Small mug</p>
+                            <h2 class="p_price">Rp 150.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/pingky.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Pingky</h1>
+                            <p class="p_text">Cute bed set</p>
+                            <h2 class="p_price">Rp 7.000.000 <span class="pdelete_price"><del>Rp 14.000.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <div class="overlay">
+                            <button class="add-to-cart">Add to cart</button>
+                            <div class="product-icons">
+                                <a href="#"><iconify-icon class="c_iconify" icon="mdi:share-variant"></iconify-icon></a><span>Share</span>
+                                <a href="#"><iconify-icon class="c_iconify compare"  icon="material-symbols:compare-arrows-rounded"></iconify-icon></a><span>Compare</span>
+                                <a href="#"><iconify-icon class="c_iconify" icon="akar-icons:heart"></iconify-icon></a><span>Like</span>
+                                
+                            </div>
+                        </div>
+                        <img src="../images/home/potty.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Potty</h1>
+                            <p class="p_text">Minimalist flower pot</p>
+                            <h2 class="p_price">Rp 500.000</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xlg-3 col-lg-4">
+                    <div class="product_show text-center">
+                        <nav aria-label="#">
+                            <ul class="pagination pagination-lg text-center">
+                              <li class="page-item active" aria-current="page">
+                                <span class="page-link">1</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product ends -->
+
+    <!-- footer starts -->
+    <footer class="footer">
+        <hr class="hr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 mb-lg-0">
+                    <h3 class="footer-title gaps">Funiro.</h3>
+                    <p class="info">400 University Drive Suite 200 Coral Gables, <br> FL 33134 USA</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-subtitle gaps">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-subtitle gaps">Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div class="news col-lg-5 col-md-6 col-sm-6 col-12">
+                    <h5 class="footer-subtitle gaps newsletter">Newsletter</h5>
+                    <form class="newsletter-form">
+                        <input type="email" class="form-control" placeholder="Enter Your Email Address">
+                        <button type="submit" class="btn btn-dark">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom mt-4 pt-3 container">
+                <hr class="hr_inner">
+                <p class="copyright">2023 Funiro. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- footer ends -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- iconify starts  -->
+    <script src="js/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+
+</body>
+</html>

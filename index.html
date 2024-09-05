@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro | Home</title>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- basic links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- header starts -->
+    <header class="head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="image-fluid" src="images/logo.png" alt="Furniro">
+                        </a>
+                    </div>
+                        <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navID" aria-controls="navID" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse menu" id="navID">
+                        <ul class="navbar-nav ul">
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="html/shop.html">Shop</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="#">About</a></li>
+                            <li class="nav-item li"><a class="nav-link a" aria-current="page" href="#">Contact</a></li>
+                        </ul>
+                        <div class="icons d-flex">
+                            <a href="#"><iconify-icon class="iconify" icon="mdi:account-alert-outline"></iconify-icon></a>
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:search" data-bs-toggle="dropdown" aria-expanded="false"></iconify-icon>
+                                <ul class="search dropdown-menu">
+                                    <div class="col-lg-10 col-xl-11 col-10 column">
+                                        <input type="text" class="n_sarea form-control" placeholder="Search" aria-label="Search"> 
+                                    </div>
+                                    <button type="submit" class="btn n_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </ul>
+                            </a>
+                            
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:heart"></iconify-icon></a>
+                            <a href="#"><iconify-icon class="iconify" icon="akar-icons:cart"></iconify-icon></a>
+                            
+                        </div>
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends -->
+    
+    <!-- slider starts -->
+    <section class="banner">
+        <div class="container t_slider">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="b_slider">
+                        <div id="slider_id" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner b_text">
+                                <div class="carousel-item active ">
+                                    <h4>New Arrival</h4>
+                                    <h1 class="b_h1">Discover Our New Collection</h1>
+                                    <p class="b_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                    <a href="#" class="btn btn_slider">Buy Now</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider ends -->
+
+
+    <!-- browse starts -->
+    <section class="range">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="r_text gap text-center">
+                        <h1 class="r_h1">Browse The Range</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card items -->
+            <div class="row cards row-cols-1 row-cols-md-3 g-4">
+                <!-- single card -->
+                <div class="col p-0">
+                    <div class="card h-100">
+                        <img src="images/home/dining.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p-0">
+                            <h5 class="card-name text-center">Dining</h5>
+                        </div>                    
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col p-0">
+                    <div class="card h-100">
+                        <img src="images/home/living_room.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p-0">
+                            <h5 class="card-name text-center">Living</h5>
+                        </div>                    
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col p-0">
+                    <div class="card h-100">
+                        <img src="images/home/bedroom.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p-0">
+                            <h5 class="card-name text-center">Bedroom</h5>
+                        </div>                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- browse ends -->
+
+    <!-- product starts -->
+    <section class="product">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="product_title text-center">
+                        <h1 class="p_h1">Our Products</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- card items 1 -->
+            <div class="row">
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/syltherine.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Syltherine</h1>
+                            <p class="p_text">Stylish cafe chair</p>
+                            <h2 class="p_price">Rp 2.500.000 <span class="pdelete_price"><del>Rp 3.500.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/leviosa.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Leviosa</h1>
+                            <p class="p_text">Stylish cafe chair</p>
+                            <h2 class="p_price">Rp 2.500.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/lolito.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Lolito</h1>
+                            <p class="p_text">Luxury big sofa</p>
+                            <h2 class="p_price">Rp 7.000.000 <span class="pdelete_price"><del>Rp 14.000.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/respira.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Respira</h1>
+                            <p class="p_text">Outdoor bar table and stool</p>
+                            <h2 class="p_price">Rp 500.000</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card items 2 -->
+            <div class="row">
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/grifo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Grifo</h1>
+                            <p class="p_text">Night lamp</p>
+                            <h2 class="p_price"> Rp 1.500.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/muggo.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Muggo</h1>
+                            <p class="p_text">Small mug</p>
+                            <h2 class="p_price">Rp 150.000</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/pingky.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Pingky</h1>
+                            <p class="p_text">Cute bed set</p>
+                            <h2 class="p_price">Rp 7.000.000 <span class="pdelete_price"><del>Rp 14.000.000</del></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col col-lg-3 col-md-6 col-sm-6 col-6 product_card">
+                    <div class="p_card">
+                        <img src="images/home/potty.png" class="card-img-top" alt="Furniro">
+                        <div class="card-body p_body">
+                            <h1 class="p_title">Potty</h1>
+                            <p class="p_text">Minimalist flower pot</p>
+                            <h2 class="p_price">Rp 500.000</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xlg-3 col-lg-4">
+                    <div class="product_show text-center">
+                        <a href="html/shop.html" class="p_ashow">
+                            <p class="p_show">Show More</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product ends -->
+
+    <!-- setup starts -->
+    <section class="s_container">
+        <div class="setup">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="product_title text-center">
+                        <h4 class="s_text">Share your setup with</h4>
+                        <h1 class="s_title">#FuniroFurniture</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-5 ps-0">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-2 image-fluid images ps-0">
+                            <img class="image-fluid image" src="images/home/img (0).png" alt="Furniro">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-10 image-fluid images">
+                            <img class="image-fluid image" src="images/home/img (1).png" alt="Furniro">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4 image-fluid image12 ps-0">
+                            <img class="image-fluid image" src="images/home/img (2).png" alt="Furniro">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-8 image-fluid image12">
+                            <img class="image-fluid image" src="images/home/img (8).png" alt="Furniro">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-2 image-fluid img_mid ">
+                    <img class="image-fluid m_image" src="images/home/img (7).png" alt="Furniro">
+                </div>
+                <div class="col-lg-5 col-md-5 col-5 pe-0">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 image-fluid images">
+                            <img class="image-fluid image" src="images/home/img (6).png" alt="Furniro">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 image-fluid images pe-0">
+                            <img class="image-fluid image" src="images/home/img (3).png" alt="Furniro">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4 image-fluid image12">
+                            <img class="image-fluid image" src="images/home/img (5).png" alt="Furniro">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 image-fluid image12">
+                            <img class="image-fluid image" src="images/home/img (4).png" alt="Furniro">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- setup ends -->
+
+    <!-- footer starts -->
+    <footer class="footer">
+        <hr class="hr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4 mb-lg-0">
+                    <h3 class="footer-title gaps">Funiro.</h3>
+                    <p class="info">400 University Drive Suite 200 Coral Gables, <br> FL 33134 USA</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-subtitle gaps">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-subtitle gaps">Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div class="news col-lg-5 col-md-6 col-sm-6 col-12">
+                    <h5 class="footer-subtitle gaps newsletter">Newsletter</h5>
+                    <form class="newsletter-form">
+                        <input type="email" class="form-control" placeholder="Enter Your Email Address">
+                        <button type="submit" class="btn btn-dark">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom mt-4 pt-3 container">
+                <hr class="hr_inner">
+                <p class="copyright">2023 Funiro. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- footer ends -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- iconify starts  -->
+    <script src="js/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+
+</body>
+</html>
